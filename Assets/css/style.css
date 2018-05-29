@@ -1,0 +1,237 @@
+
+
+body {
+    background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background-image: url('../images/dust_scratches.png');
+
+}
+div.name {
+    background-color: #4aaaa5;
+    color: white;
+    border: solid #cccccc 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    
+
+}
+div.top {
+    background-color: white;
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+
+}
+header {
+    background-color: white;
+    
+
+}
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #cccccc;   
+    
+}
+li {
+    display: inline;
+    text-decoration: none;
+    color:  #cccccc;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    
+}
+div.fixed {
+    background-color: #777;
+    color: #777;
+    height: 50px;
+    border-top: solid #4aaaa5 10px;
+    position: static;
+}
+section {
+    background-color: white;
+    width: 960px;
+    border: solid #dddddd 1px;
+    padding: 20px;
+    line-height: 2;
+    margin: 20px auto;
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+    overflow: auto;
+}
+h2 { 
+    
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+    text-align: left;
+    border-bottom: solid #dddddd 2px; 
+    font-size: 36px;
+}
+div.portfolio {
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+    text-align: left;
+    border-bottom: solid #dddddd 2px; 
+    font-size: 36px;
+}
+#dougpic {
+    width: 160px;
+    height: 215px;
+    float: left;
+    padding: 20px;
+
+} 
+p 
+{ 
+    background-color: white;
+    border: solid #cccccc 2px;
+    margin-top: 5px;
+    text-indent: 50px;
+
+    
+    
+}
+div.name2 {
+    background-color: white;
+    border: solid #cccccc 2px;
+    margin-top: 5px;
+   
+}
+div.email {
+    background-color: white;
+    border: solid #cccccc 2px;
+    margin-top: 5px;
+}
+div.message {
+    background-color: white;
+    height: 100%;
+    border:solid #cccccc 2px;
+    margin-top: 5px;
+    margin-bottom: 350px;
+}
+.clearfix {
+    overflow: auto;
+}
+.P1 {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 320px;
+}
+.imgcont {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+div.absolute {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;
+    border-top: 3px solid #4aaaa5;
+   
+}
+/* Media Queries */
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background-image: url('../images/dust_scratches.png');
+    margin: 0;
+    width: 100%;
+}
+li {
+    display: inline;
+    margin-right: 15px;
+
+}
+}
+@media screen and (max-width: 768px) {
+body {
+        background-color: blue;
+        color: #777;
+        background-image: none;
+        display: block;
+    }
+div.top {
+        float: none;
+        width: 100%;
+    }
+li {
+    display: inline;
+}
+
+p { 
+    background-color: white;
+    display: block;
+    
+}
+header {
+    position: static;
+}
+section {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+}
+@media screen and (max-width: 640px) {
+    body {
+        background-color: white;
+        color: #777;
+        background-image: none;
+    }
+    /* div.top {
+        float: none;
+        width: 100%;
+    } */
+   
+    
+    header {
+        position: static;
+    }
+    div.name {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    ul {
+        clear: right;
+        display: block;
+        position: static;
+        text-align: center;
+        margin-right: 25%;
+        
+    }
+
+    
+    
+}
