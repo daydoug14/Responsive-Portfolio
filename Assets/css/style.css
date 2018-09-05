@@ -6,7 +6,12 @@ body {
     color: #777;
     font-size: 18px;
     background-image: url('../images/dust_scratches.png');
-
+    /* min-height: 100vh;
+    position: relative; */
+}
+html {
+    min-height: 100vh;
+    position: relative;
 }
 div.name {
     background-color: #4aaaa5;
@@ -71,7 +76,7 @@ section {
     background-color: white;
     width: 960px;
     border: solid #dddddd 1px;
-    padding: 20px;
+    padding: 50px;
     line-height: 2;
     margin: 20px auto;
     clear: both;
@@ -150,6 +155,7 @@ div.message {
 
 }
 div.absolute {
+
     position: sticky;
     bottom: 0;
     width: 100%;
