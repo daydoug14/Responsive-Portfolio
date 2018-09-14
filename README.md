@@ -1,1 +1,2 @@
-# Basic-Portfolio
+# Responsive Portfolio
+We aorked on a couple of different versions of our portfolios.  I chose this one, "the Responsive Portfolio,"as my introduction to potential employers.  I added media queries so that it can be viewed on different forms of media. The index page is an introduction.  The portfolio page is access to a few of the projects that I worked on, and the contact page is where I listed contacts.
